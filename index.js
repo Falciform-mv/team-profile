@@ -10,7 +10,22 @@ const questions = [
   {
     type: 'input',
     name: 'manager',
-    message: 'Who is your team manager?'
+    message: 'Who is the team manager?',
+  },
+  {
+    type: 'input',
+    name: 'id',
+    message: 'What is their Employee ID?',
+  },
+  {
+    type: 'input',
+    name: 'email',
+    message: 'What is their email?',
+  },
+  {
+    type: 'input',
+    name: 'office',
+    message: 'What is their office number?'
   }
 ]
 

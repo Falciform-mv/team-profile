@@ -5,7 +5,7 @@ function generateHTML(data) {
   <html>
   <head>
     <title>Team Profile</title>
-    <link rel="stylesheet" href="./skeleton.css">
+    <link rel="stylesheet" href="./src/skeleton.css">
   </head>
     <body>
       <h2 class="container">My Team</h2>
@@ -16,9 +16,9 @@ function generateHTML(data) {
         <div class="column">
           <h3>${data.manager}</h3>
           <h4>Manager</h4>
-          <p>ID: 1 <br />
-            Email: jared@hotmail.com <br />
-            Office Number: 203
+          <p>ID: ${data.id} <br />
+            Email: ${data.email} <br />
+            Office Number: ${data.office}
           </p>
         </div>
   
